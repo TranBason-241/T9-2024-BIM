@@ -1,8 +1,11 @@
 @font-face {
     font-family: "K2D";
     src: url("../fonts/K2D-Bold.eot");
-    src: url("../fonts/K2D-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/K2D-Bold.woff2") format("woff2"),
-        url("../fonts/K2D-Bold.woff") format("woff"), url("../fonts/K2D-Bold.ttf") format("truetype"),
+    src:
+        url("../fonts/K2D-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/K2D-Bold.woff2") format("woff2"),
+        url("../fonts/K2D-Bold.woff") format("woff"),
+        url("../fonts/K2D-Bold.ttf") format("truetype"),
         url("../fonts/K2D-Bold.svg#K2D-Bold") format("svg");
     font-weight: bold;
     font-style: normal;
@@ -10,46 +13,78 @@
 }
 
 @font-face {
-    font-family: "K2D";
-    src: url("../fonts/K2D-Regular.eot");
-    src: url("../fonts/K2D-Regular.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/K2D-Regular.woff2") format("woff2"), url("../fonts/K2D-Regular.woff") format("woff"),
-        url("../fonts/K2D-Regular.ttf") format("truetype"), url("../fonts/K2D-Regular.svg#K2D-Regular") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "K2D";
-    src: url("../fonts/K2D-Italic.eot");
-    src: url("../fonts/K2D-Italic.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/K2D-Italic.woff2") format("woff2"), url("../fonts/K2D-Italic.woff") format("woff"),
-        url("../fonts/K2D-Italic.ttf") format("truetype"), url("../fonts/K2D-Italic.svg#K2D-Italic") format("svg");
+    font-family: "SVN-Moneta Sans";
+    src: url("../fonts/SVN-MonetaSans-Italic.eot");
+    src:
+        url("../fonts/SVN-MonetaSans-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/SVN-MonetaSans-Italic.woff2") format("woff2"),
+        url("../fonts/SVN-MonetaSans-Italic.woff") format("woff"),
+        url("../fonts/SVN-MonetaSans-Italic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Philosopher";
-    src: url("../fonts/Philosopher-Regular.eot");
-    src: url("../fonts/Philosopher-Regular.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/Philosopher-Regular.woff2") format("woff2"),
-        url("../fonts/Philosopher-Regular.woff") format("woff"),
-        url("../fonts/Philosopher-Regular.ttf") format("truetype"),
-        url("../fonts/Philosopher-Regular.svg#Philosopher-Regular") format("svg");
+    font-family: "SVN-Moneta Sans";
+    src: url("../fonts/SVN-MonetaSans-Bold.eot");
+    src:
+        url("../fonts/SVN-MonetaSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/SVN-MonetaSans-Bold.woff2") format("woff2"),
+        url("../fonts/SVN-MonetaSans-Bold.woff") format("woff"),
+        url("../fonts/SVN-MonetaSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Moneta Sans";
+    src: url("../fonts/SVN-MonetaSans-Light.eot");
+    src:
+        url("../fonts/SVN-MonetaSans-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/SVN-MonetaSans-Light.woff2") format("woff2"),
+        url("../fonts/SVN-MonetaSans-Light.woff") format("woff"),
+        url("../fonts/SVN-MonetaSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "UTM Yen Tu";
+    src: url("../fonts/UTMYenTu.eot");
+    src:
+        url("../fonts/UTMYenTu.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/UTMYenTu.woff2") format("woff2"),
+        url("../fonts/UTMYenTu.woff") format("woff"),
+        url("../fonts/UTMYenTu.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "SFU Honeymoon";
-    src: url("../fonts/SFUHoneymoon.eot");
-    src: url("../fonts/SFUHoneymoon.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/SFUHoneymoon.woff2") format("woff2"), url("../fonts/SFUHoneymoon.woff") format("woff"),
-        url("../fonts/SFUHoneymoon.ttf") format("truetype"), url("../fonts/SFUHoneymoon.svg#SFUHoneymoon") format("svg");
+    font-family: "SVN-Moneta Sans";
+    src: url("../fonts/SVN-MonetaSans-LightItalic.eot");
+    src:
+        url("../fonts/SVN-MonetaSans-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/SVN-MonetaSans-LightItalic.woff2") format("woff2"),
+        url("../fonts/SVN-MonetaSans-LightItalic.woff") format("woff"),
+        url("../fonts/SVN-MonetaSans-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SVN-Moneta Sans";
+    src: url("../fonts/SVN-MonetaSans-Regular.eot");
+    src:
+        url("../fonts/SVN-MonetaSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/SVN-MonetaSans-Regular.woff2") format("woff2"),
+        url("../fonts/SVN-MonetaSans-Regular.woff") format("woff"),
+        url("../fonts/SVN-MonetaSans-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

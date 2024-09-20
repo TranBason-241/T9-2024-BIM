@@ -6,30 +6,44 @@
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: "K2D";
-  src: url("../fonts/K2D-Regular.eot");
-  src: url("../fonts/K2D-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/K2D-Regular.woff2") format("woff2"), url("../fonts/K2D-Regular.woff") format("woff"), url("../fonts/K2D-Regular.ttf") format("truetype"), url("../fonts/K2D-Regular.svg#K2D-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: "K2D";
-  src: url("../fonts/K2D-Italic.eot");
-  src: url("../fonts/K2D-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/K2D-Italic.woff2") format("woff2"), url("../fonts/K2D-Italic.woff") format("woff"), url("../fonts/K2D-Italic.ttf") format("truetype"), url("../fonts/K2D-Italic.svg#K2D-Italic") format("svg");
+  font-family: "SVN-Moneta Sans";
+  src: url("../fonts/SVN-MonetaSans-Italic.eot");
+  src: url("../fonts/SVN-MonetaSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-MonetaSans-Italic.woff2") format("woff2"), url("../fonts/SVN-MonetaSans-Italic.woff") format("woff"), url("../fonts/SVN-MonetaSans-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
   font-display: swap; }
 @font-face {
-  font-family: "Philosopher";
-  src: url("../fonts/Philosopher-Regular.eot");
-  src: url("../fonts/Philosopher-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Philosopher-Regular.woff2") format("woff2"), url("../fonts/Philosopher-Regular.woff") format("woff"), url("../fonts/Philosopher-Regular.ttf") format("truetype"), url("../fonts/Philosopher-Regular.svg#Philosopher-Regular") format("svg");
+  font-family: "SVN-Moneta Sans";
+  src: url("../fonts/SVN-MonetaSans-Bold.eot");
+  src: url("../fonts/SVN-MonetaSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-MonetaSans-Bold.woff2") format("woff2"), url("../fonts/SVN-MonetaSans-Bold.woff") format("woff"), url("../fonts/SVN-MonetaSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Moneta Sans";
+  src: url("../fonts/SVN-MonetaSans-Light.eot");
+  src: url("../fonts/SVN-MonetaSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-MonetaSans-Light.woff2") format("woff2"), url("../fonts/SVN-MonetaSans-Light.woff") format("woff"), url("../fonts/SVN-MonetaSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "UTM Yen Tu";
+  src: url("../fonts/UTMYenTu.eot");
+  src: url("../fonts/UTMYenTu.eot?#iefix") format("embedded-opentype"), url("../fonts/UTMYenTu.woff2") format("woff2"), url("../fonts/UTMYenTu.woff") format("woff"), url("../fonts/UTMYenTu.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: "SFU Honeymoon";
-  src: url("../fonts/SFUHoneymoon.eot");
-  src: url("../fonts/SFUHoneymoon.eot?#iefix") format("embedded-opentype"), url("../fonts/SFUHoneymoon.woff2") format("woff2"), url("../fonts/SFUHoneymoon.woff") format("woff"), url("../fonts/SFUHoneymoon.ttf") format("truetype"), url("../fonts/SFUHoneymoon.svg#SFUHoneymoon") format("svg");
+  font-family: "SVN-Moneta Sans";
+  src: url("../fonts/SVN-MonetaSans-LightItalic.eot");
+  src: url("../fonts/SVN-MonetaSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-MonetaSans-LightItalic.woff2") format("woff2"), url("../fonts/SVN-MonetaSans-LightItalic.woff") format("woff"), url("../fonts/SVN-MonetaSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: "SVN-Moneta Sans";
+  src: url("../fonts/SVN-MonetaSans-Regular.eot");
+  src: url("../fonts/SVN-MonetaSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/SVN-MonetaSans-Regular.woff2") format("woff2"), url("../fonts/SVN-MonetaSans-Regular.woff") format("woff"), url("../fonts/SVN-MonetaSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -44,15 +58,15 @@
   display: block; }
 
 .text_title {
-  width: 850px;
   max-width: 100%;
   margin: 0px auto;
   text-align: center;
-  font-size: 26px;
-  font-family: "Philosopher";
-  font-weight: normal;
+  font-size: 32px;
+  font-family: "SVN-Moneta Sans";
+  font-weight: bold;
   font-style: normal;
-  font-display: swap; }
+  color: #4b6359;
+  margin-top: 40px; }
 
 .text_content {
   width: 700px;
@@ -61,8 +75,8 @@
   text-align: left;
   font-size: 18px;
   position: relative;
-  font-family: "K2D";
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal; }
 
 .group_image {
@@ -74,25 +88,96 @@
   .group_image img {
     position: absolute;
     top: 0;
-    left: 0; }
+    left: 0;
+    max-width: 100%; }
   .group_image img:first-child {
     position: initial; }
 
+.text-in-group {
+  font-size: 38px;
+  font-family: "SVN-Moneta Sans";
+  font-weight: normal;
+  font-style: normal;
+  position: absolute;
+  color: #4b6359;
+  line-height: 1.2 !important; }
+
+.group_img_4 {
+  margin-bottom: 50px; }
+  .group_img_4 .tig-1 {
+    text-align: right;
+    right: 4.5%;
+    top: 5%; }
+
+.video-container {
+  width: 1200px;
+  height: 670px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 40px; }
+
+.img-1 {
+  margin-top: -4%;
+  margin-bottom: 35px; }
+
+.img-2 {
+  margin-top: -6%; }
+
+.group_img_6 {
+  margin-top: 30px;
+  margin-bottom: 35px; }
+  .group_img_6 .text-in-group {
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.2; }
+  .group_img_6 .tig-1 {
+    top: 35%;
+    left: 11%; }
+  .group_img_6 .tig-2 {
+    left: 10%;
+    bottom: 1%; }
+
+.group_img_8 {
+  margin-bottom: 40px;
+  margin-top: 20px; }
+  .group_img_8 .tig-1 {
+    font-size: 35px;
+    text-align: center;
+    left: 3%;
+    top: 21%; }
+
+.group_7_container {
+  padding: 40px 0;
+  background-color: #afc2c0;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+  .group_7_container .tig-1 {
+    font-size: 25px;
+    text-align: center;
+    bottom: -1.5%;
+    right: 6%; }
+
 .author {
   font-size: 18px;
-  font-family: "San Francisco Text";
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   text-align: center;
   max-width: 100%;
   margin: 0 auto;
   display: block;
+  padding: 15px 0;
   margin-top: 0px; }
   .author p {
     text-align: center;
     margin-bottom: 0; }
-    .author p span {
-      font-weight: bold; }
+
+.group_img_2 {
+  margin-bottom: 30px;
+  margin-top: 10px; }
+
+.group_img_3 {
+  margin-bottom: 30px;
+  margin-top: 20px; }
 
 #menu-box .box_width_common .block_scoll_menu ul {
   list-style: none;
@@ -169,5 +254,69 @@
     font-size: 14px; }
     .coppy_right_left .txt_lienhe a span {
       color: #9f224e; }
+
+.swiper {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.slide-1-container {
+  width: 1820px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 50px; }
+
+.slide-2-container {
+  width: 1820px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 50px; }
+  .slide-2-container .slide-note {
+    font-size: 24px; }
+
+.slide-note {
+  font-size: 22px;
+  font-family: "SVN-Moneta Sans";
+  font-weight: normal;
+  font-style: normal;
+  color: #4b6359;
+  text-align: center;
+  margin-bottom: 35px !important;
+  margin-top: 10px; }
+
+.swiper-pagination-bullet {
+  width: 17px;
+  height: 17px;
+  margin: 0 5px !important; }
+
+.swiper-pagination-bullet-active {
+  background: #4b6359; }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #4b6359; }
 
 /*# sourceMappingURL=main.css.map */
