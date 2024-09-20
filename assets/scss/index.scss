@@ -1,0 +1,202 @@
+@import "fonts";
+
+.my_container {
+    background-color: white;
+    overflow: hidden;
+}
+.img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+
+.text_title {
+    width: 850px;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Philosopher";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.text_content {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    font-family: "K2D";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.group_image {
+    position: relative;
+    width: fit-content;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    & img:first-child {
+        position: initial;
+    }
+}
+
+.author {
+    font-size: 18px;
+    font-family: "San Francisco Text";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    // width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    p {
+        text-align: center;
+        span {
+            font-weight: bold;
+        }
+        margin-bottom: 0;
+    }
+    margin-top: 0px;
+}
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin animation($animation) {
+    -webkit-animation: $animation;
+    -o-animation: $animation;
+    animation: $animation;
+}
+
+@mixin transition($value) {
+    -webkit-transition: $value;
+    -ms-transition: $value; // IE9 only
+    -o-transition: $value;
+    transition: $value;
+}
+
+#menu-box {
+    .box_width_common {
+        .block_scoll_menu {
+            ul {
+                list-style: none;
+                padding-left: 0;
+                margin: 0;
+                li {
+                    background-color: #f4f4f4;
+                    font-size: 16px;
+                    position: relative;
+                    border-bottom: 1px dotted #c3c3c3;
+
+                    &:last-child {
+                        border-bottom: 0;
+                    }
+
+                    a {
+                        display: block;
+                        color: #333;
+                        text-decoration: none;
+                        font-size: 16px;
+                        padding: 9px 0 8px 20px;
+                        position: relative;
+                        @include transition(all 0.2s linear);
+                    }
+
+                    &.active,
+                    &:hover {
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            height: 100%;
+                            width: 5px;
+                            background-color: #9f224e;
+                            @include animation(aniWidth 0.2s linear);
+                            animation-fill-mode: forwards;
+                            animation-delay: 0.1s;
+                        }
+
+                        a {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include keyframes(aniWidth) {
+    0% {
+        width: 5px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.coppy_right_left {
+    background-color: #d0d0d0;
+    padding: 10px 20px 50px;
+    color: #838282;
+    font-size: 14px;
+
+    .txt_coppy_right {
+        p {
+            margin-bottom: 10px;
+        }
+    }
+
+    .txt_lienhe {
+        h4 {
+            font-size: 14px;
+            font-weight: bold;
+            color: #444;
+            margin-bottom: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: #838282;
+            font-size: 14px;
+
+            span {
+                color: #9f224e;
+            }
+        }
+    }
+}
+
+@media (min-width: 577px) {
+    .mobile {
+        // display: none !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .pc {
+        // display: none !important;
+    }
+}
